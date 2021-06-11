@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
+export const config = { amp: 'hybrid' };
+
 export default function Home() {
   return (
     <div>
